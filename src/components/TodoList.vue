@@ -106,7 +106,7 @@
       },
     },
     watch: {
-      items: (newValue) => {
+      items(newValue) {
         this.saveItemsToLocalStorage(newValue);
       }
     },
